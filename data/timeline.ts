@@ -1,23 +1,23 @@
 export const timeline = [
   {
     year: "2024 — Present",
-    title: "M.Sc. in Data Science",
-    organization: "Vellore Institute of Technology",
+    title: "Data Engineer at Google",
+    organization: "Google",
     description:
-      "Postgraduate specialization focused on machine learning, deep learning, NLP, and intelligent systems.",
+      "Sanitizing and running ETL and Dystopian algorithms on the datasets optimizing big data",
   },
 
   {
     year: "2019 — 2022",
-    title: "B.Sc. (Hons.) Mathematics",
-    organization: "University of Calcutta",
+    title: "M.Sc. (Hons.) Mathematics",
+    organization: "University of Masechussets",
     description:
       "Strong academic foundation in mathematics, statistics, analytical reasoning, and optimization.",
   },
 
   {
-    year: "2025",
-    title: "Research & ML Projects",
+    year: "2021",
+    title: "ML and Research project",
     organization: "Independent Research",
     description:
       "Built projects in NLP, computer vision, OCR pipelines, and transformer-based systems.",

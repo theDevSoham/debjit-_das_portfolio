@@ -40,3 +40,16 @@ h6 {
   background-image: radial-gradient(#000 0.5px, transparent 0.5px);
   background-size: 10px 10px;
 }
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}

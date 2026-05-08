@@ -26,7 +26,7 @@ export default function ContactCTA() {
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
               <a
-                href="mailto:debjitdas1409@gmail.com"
+                href="mailto:xyz@123.com"
                 className="rounded-full bg-slate-900 px-8 py-4 text-sm font-medium text-white transition-all duration-500 hover:-translate-y-1 hover:bg-slate-800"
               >
                 Send an Email

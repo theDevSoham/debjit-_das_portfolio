@@ -4,7 +4,7 @@ import SectionHeading from "@/components/ui/section-heading";
 
 export default function About() {
   return (
-    <section className="py-28 md:py-36">
+    <section id="about" className="py-28 md:py-36">
       <Container>
         <Reveal>
           <SectionHeading

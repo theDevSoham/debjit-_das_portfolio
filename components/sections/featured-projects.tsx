@@ -7,10 +7,7 @@ import { projects } from "@/data/projects";
 
 export default function FeaturedProjects() {
   return (
-    <section
-      id="projects"
-      className="py-28 md:py-36"
-    >
+    <section id="projects" className="py-28 md:py-36">
       <Container>
         <Reveal>
           <SectionHeading
@@ -20,13 +17,14 @@ export default function FeaturedProjects() {
           />
         </Reveal>
 
-        <div className="mt-20 grid gap-10">
+        <div className="mt-20 grid grid-cols-1 gap-10 lg:grid-cols-2 auto-rows-fr">
           {projects.map((project, index) => (
             <Reveal
               key={project.slug}
               delay={index * 0.1}
+              className={index === 0 ? "lg:col-span-2 h-full" : "h-full"}
             >
-              <ProjectCard project={project} />
+              <ProjectCard project={project} featured={index === 0} />
             </Reveal>
           ))}
         </div>
