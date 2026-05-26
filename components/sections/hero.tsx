@@ -36,9 +36,9 @@ export default function Hero() {
             {/* Heading */}
             <Reveal delay={0.1}>
               <h1 className="max-w-4xl text-5xl font-medium leading-[1.05] tracking-[-0.04em] text-slate-900 md:text-7xl">
-                Exploring intelligence through{" "}
+                Transforming Complex Data into{" "}
                 <span className="text-emerald-600">
-                  mathematics, data, and machine learning.
+                  Clear Business Insights
                 </span>
               </h1>
             </Reveal>
@@ -46,9 +46,9 @@ export default function Hero() {
             {/* Description */}
             <Reveal delay={0.2}>
               <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
-                Postgraduate Data Science student with a strong foundation in
-                mathematics, machine learning, NLP, and deep learning — building
-                thoughtful systems that transform data into meaningful insights.
+                Data Science postgraduate skilled in Data Analytics, SQL, Power
+                BI, and Machine Learning — building data-driven solutions that
+                transform complex datasets into actionable business insights.
               </p>
             </Reveal>
 
@@ -63,7 +63,7 @@ export default function Hero() {
                 </a>
 
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/uc?export=download&id=1LY2X2-dIXRbzomICZQSrLkGAzJfIT4rq"
                   target="_blank"
                   className="rounded-full border border-slate-300 bg-white px-7 py-4 text-sm font-medium text-slate-700 transition-all duration-500 hover:-translate-y-1 hover:border-slate-400"
                 >
@@ -78,19 +78,19 @@ export default function Hero() {
                 {[
                   {
                     label: "Projects",
-                    value: "8+",
+                    value: "06+",
                   },
                   {
-                    label: "ML Domains",
-                    value: "NLP/CV",
+                    label: "Stack",
+                    value: "SQL · Python",
                   },
                   {
-                    label: "Focus",
-                    value: "Research",
+                    label: "Role",
+                    value: "Data Analyst",
                   },
                   {
-                    label: "Location",
-                    value: "India",
+                    label: "Status",
+                    value: "Open",
                   },
                 ].map((item) => (
                   <div key={item.label}>
@@ -129,7 +129,7 @@ export default function Hero() {
                 <p className="text-sm text-slate-500">Current Focus</p>
 
                 <p className="mt-2 font-medium text-slate-900">
-                  NLP • Deep Learning • Research
+                  Analytics • BI • Machine Learning
                 </p>
               </div>
             </div>

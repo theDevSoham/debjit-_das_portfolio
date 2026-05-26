@@ -9,27 +9,27 @@ export default function About() {
         <Reveal>
           <SectionHeading
             eyebrow="About"
-            title="Blending mathematical thinking with practical machine learning."
-            description="With a foundation in mathematics and postgraduate studies in data science, my work focuses on building intelligent systems through structured analysis, deep learning, and research-driven experimentation."
+            title="Focused on solving business problems through data and AI."
+            description="With a foundation in mathematics and postgraduate degree in Data Science, I build analytics and machine learning solutions that turn complex datasets into actionable insights."
           />
         </Reveal>
 
         <div className="mt-20 grid gap-10 md:grid-cols-3">
           {[
             {
-              title: "Machine Learning",
+              title: "Analytics",
               description:
-                "Building predictive and intelligent systems using modern ML and deep learning frameworks.",
+                "Transforming raw data into actionable business insights through structured analysis and visualization.",
             },
             {
-              title: "Natural Language Processing",
+              title: "Dashboarding",
               description:
-                "Exploring transformer architectures, language understanding, and scalable NLP workflows.",
+                "Designing clean, interactive BI dashboards focused on KPIs, reporting, and decision-making.",
             },
             {
-              title: "Computer Vision",
+              title: "AI & ML",
               description:
-                "Applying deep learning for image classification, OCR systems, and visual intelligence.",
+                "Building practical machine learning solutions for prediction, automation, and intelligent systems.",
             },
           ].map((item, index) => (
             <Reveal key={item.title} delay={index * 0.1}>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Container from "./container";
 
 export default function Footer() {
@@ -12,28 +13,28 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
-            <a
-              href="https://github.com"
+            <Link
+              href="https://github.com/Das-Debjit"
               target="_blank"
               className="text-sm text-slate-500 transition-colors duration-300 hover:text-slate-900"
             >
               GitHub
-            </a>
+            </Link>
 
-            <a
-              href="https://linkedin.com"
+            <Link
+              href="https://www.linkedin.com/in/debjitdas82"
               target="_blank"
               className="text-sm text-slate-500 transition-colors duration-300 hover:text-slate-900"
             >
               LinkedIn
-            </a>
+            </Link>
 
-            <a
-              href="mailto:xyz@123.com"
+            <Link
+              href="mailto:debjitdas1409@gmail.com"
               className="text-sm text-slate-500 transition-colors duration-300 hover:text-slate-900"
             >
               Email
-            </a>
+            </Link>
           </div>
         </div>
       </Container>

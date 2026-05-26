@@ -15,13 +15,13 @@ export default function ContactCTA() {
             </p>
 
             <h2 className="mt-8 text-5xl font-medium leading-[1.1] tracking-[-0.04em] text-slate-900 md:text-7xl">
-              Building thoughtful systems through data, research, and machine
-              learning.
+              Learning, building, and solving through data and AI.
             </h2>
 
             <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-slate-600">
-              Open to research opportunities, collaborations, and conversations
-              around intelligent systems and applied machine learning.
+              Postgraduate student in Data Science with interests in analytics,
+              business intelligence, machine learning, and real-world data
+              applications.
             </p>
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
