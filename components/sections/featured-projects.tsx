@@ -12,8 +12,8 @@ export default function FeaturedProjects() {
         <Reveal>
           <SectionHeading
             eyebrow="Projects"
-            title="Research-driven projects focused on machine learning and intelligent systems."
-            description="A selection of projects exploring computer vision, NLP, deep learning, and data-driven experimentation."
+            title="Projects focused on analytics, intelligent systems, and data-driven decision making."
+            description="Hands-on experience building analytics dashboards, predictive models, NLP systems, and computer vision applications using Python, SQL, Power BI, and machine learning techniques on real-world datasets."
           />
         </Reveal>
 

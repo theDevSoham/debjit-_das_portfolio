@@ -11,8 +11,8 @@ export default function Skills() {
         <Reveal>
           <SectionHeading
             eyebrow="Technical Stack"
-            title="Tools, frameworks, and technologies used across research and experimentation."
-            description="A focused toolkit spanning machine learning, deep learning, data analysis, and modern AI workflows."
+            title="Technologies I work with for data analytics, visualization, and AI projects."
+            description="Focused on building practical projects using SQL, Python, Power BI, machine learning, and modern data science tools."
           />
         </Reveal>
 

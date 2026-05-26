@@ -17,8 +17,7 @@ export default function ProjectsPage() {
               </p>
 
               <h1 className="mt-8 text-5xl font-medium leading-[1.05] tracking-tighter text-slate-900 md:text-7xl">
-                Exploring intelligent systems through research and
-                experimentation.
+                Building data-driven solutions across analytics, dashboards, and AI systems.
               </h1>
             </div>
           </Reveal>

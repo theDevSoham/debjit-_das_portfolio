@@ -1,32 +1,44 @@
 export const skillGroups = [
   {
     title: "Programming",
-    skills: ["Python", "R", "SQL"],
+    skills: ["Python", "SQL", "R"],
+  },
+
+  {
+    title: "Data Analysis",
+    skills: [
+      "Data Cleaning",
+      "EDA",
+      "Data Visualization",
+      "Statistical Analysis",
+      "Reporting",
+    ],
+  },
+
+  {
+    title: "Business Intelligence",
+    skills: [
+      "Power BI",
+      "Excel",
+      "Dashboarding",
+      "KPI Tracking",
+      "ETL",
+    ],
   },
 
   {
     title: "Machine Learning",
     skills: [
-      "Machine Learning",
-      "Deep Learning",
-      "NLP",
+      "Predictive Modeling",
       "Regression",
-      "Optimization",
+      "Classification",
+      "scikit-learn",
+      "NLP",
     ],
   },
 
   {
-    title: "Frameworks",
-    skills: ["TensorFlow", "PyTorch", "Pandas", "NumPy", "OpenCV"],
-  },
-
-  {
-    title: "Visualization & BI",
-    skills: ["Power BI", "Tableau", "Excel", "ETL Pipelines"],
-  },
-
-  {
     title: "Tools",
-    skills: ["Git", "GitHub", "Linux", "VS Code", "LaTeX"],
+    skills: ["Pandas", "Git", "GitHub", "VS Code", "Linux"],
   },
 ];
