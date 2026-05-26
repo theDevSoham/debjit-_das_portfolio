@@ -1,3 +1,4 @@
+import { Project, ProjectMetric } from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,7 +6,7 @@ export default function ProjectCard({
   project,
   featured = false,
 }: {
-  project: any;
+  project: Project;
   featured?: boolean;
 }) {
   return (
@@ -65,7 +66,7 @@ export default function ProjectCard({
 
           {/* Metrics */}
           <div className="mt-10 flex flex-wrap gap-3">
-            {project.metrics.map((metric: any) => (
+            {project.metrics.map((metric: ProjectMetric) => (
               <div
                 key={metric.label}
                 className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm text-slate-700"

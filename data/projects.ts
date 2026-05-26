@@ -143,3 +143,26 @@ export const projects = [
     ],
   },
 ];
+
+export interface ProjectMetric {
+  label: string;
+  value: string;
+}
+
+export interface Project {
+  slug: string;
+
+  title: string;
+  category: string;
+  year: string;
+
+  image: string;
+
+  hero: string;
+  overview: string;
+
+  methodology: string[];
+  results: string[];
+
+  metrics: ProjectMetric[];
+}
