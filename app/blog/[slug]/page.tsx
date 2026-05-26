@@ -1,3 +1,5 @@
+"use client";
+
 import { notFound } from "next/navigation";
 
 import Container from "@/components/layout/container";
@@ -5,6 +7,7 @@ import Reveal from "@/components/client/animations/reveal";
 import Footer from "@/components/layout/footer";
 
 import { blogs } from "@/data/blogs";
+import { useEffect } from "react";
 
 export default async function BlogDetailPage({
   params,
@@ -15,6 +18,10 @@ export default async function BlogDetailPage({
 }) {
   const slug = (await params).slug;
   const blog = blogs.find((item) => item.slug === slug);
+
+  useEffect(() => {
+    notFound();
+  }, []);
 
   if (!blog) {
     notFound();

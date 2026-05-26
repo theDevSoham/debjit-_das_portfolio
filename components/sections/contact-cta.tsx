@@ -26,14 +26,14 @@ export default function ContactCTA() {
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
               <a
-                href="mailto:xyz@123.com"
+                href="mailto:debjitdas1409@gmail.com"
                 className="rounded-full bg-slate-900 px-8 py-4 text-sm font-medium text-white transition-all duration-500 hover:-translate-y-1 hover:bg-slate-800"
               >
                 Send an Email
               </a>
 
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/uc?export=download&id=1LY2X2-dIXRbzomICZQSrLkGAzJfIT4rq"
                 target="_blank"
                 className="rounded-full border border-slate-300 bg-white px-8 py-4 text-sm font-medium text-slate-700 transition-all duration-500 hover:-translate-y-1 hover:border-slate-400"
               >

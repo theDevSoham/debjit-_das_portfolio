@@ -22,10 +22,10 @@ const navItems = [
     href: "/projects",
   },
 
-  {
-    label: "Blog",
-    href: "/blog",
-  },
+  // {
+  //   label: "Blog",
+  //   href: "/blog",
+  // },
 
   {
     label: "Contact",
@@ -56,7 +56,7 @@ export default function Navbar() {
       <Container>
         <div
           className={`mt-6 overflow-hidden border backdrop-blur-xl transition-[background-color,border-color,box-shadow] duration-500 ${
-            mobileOpen ? "rounded-[2rem]" : "rounded-full"
+            mobileOpen ? "rounded-4xl" : "rounded-full"
           } ${
             scrolled || mobileOpen
               ? "border-white/40 bg-white/80 shadow-[0_10px_40px_rgba(15,23,42,0.08)]"
@@ -68,7 +68,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/">
               <p className="text-sm font-medium uppercase tracking-[0.2em] text-slate-900">
-                John Doe
+                Debjit Das
               </p>
             </Link>
 

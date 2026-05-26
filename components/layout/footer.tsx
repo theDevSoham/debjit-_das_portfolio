@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-sm text-slate-500">
-              © 2026 John Doe. All rights reserved.
+              © 2026 Debjit Das. All rights reserved.
             </p>
           </div>
 

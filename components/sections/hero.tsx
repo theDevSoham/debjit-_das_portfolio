@@ -29,7 +29,7 @@ export default function Hero() {
             {/* Tag */}
             <Reveal>
               <div className="mb-6 inline-flex items-center rounded-full border border-slate-200 bg-white/70 px-4 py-2 text-sm text-slate-600 backdrop-blur">
-                Research-Oriented Data Scientist
+                Data Analyst
               </div>
             </Reveal>
 
@@ -115,7 +115,7 @@ export default function Hero() {
               <div className="relative overflow-hidden rounded-4xl border border-slate-200 bg-white/70 shadow-[0_20px_80px_rgba(15,23,42,0.08)] backdrop-blur">
                 <div className="aspect-4/5 relative">
                   <Image
-                    src="/profile/john.jpg"
+                    src="/profile/debjit.jpeg"
                     alt="Picture"
                     fill
                     className="object-cover"

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 import Container from "@/components/layout/container";
@@ -5,8 +7,13 @@ import Reveal from "@/components/client/animations/reveal";
 import Footer from "@/components/layout/footer";
 
 import { blogs } from "@/data/blogs";
+import { useEffect } from "react";
+import { notFound } from "next/navigation";
 
 export default function BlogPage() {
+  useEffect(() => {
+    notFound();
+  }, []);
   return (
     <main className="pt-32">
       <section className="pb-24">

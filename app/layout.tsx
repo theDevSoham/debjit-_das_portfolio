@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe",
+  title: "Debjit Das",
   description: "Data Scientist & Research Enthusiast",
 };
 
