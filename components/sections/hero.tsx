@@ -78,11 +78,11 @@ export default function Hero() {
                 {[
                   {
                     label: "Projects",
-                    value: "06+",
+                    value: "05+",
                   },
                   {
                     label: "Stack",
-                    value: "SQL · Python",
+                    value: "SQL, Python",
                   },
                   {
                     label: "Role",

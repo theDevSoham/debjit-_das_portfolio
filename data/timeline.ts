@@ -1,25 +1,25 @@
 export const timeline = [
   {
-    year: "2024 — Present",
-    title: "Data Engineer at Google",
-    organization: "Google",
+    year: "2024 — 2026",
+    title: "M.Sc. Data Science",
+    organization: "Vellore Institute of Technology",
     description:
-      "Sanitizing and running ETL and Dystopian algorithms on the datasets optimizing big data",
+      "Pursuing postgraduate studies in Data Science with coursework in machine learning, statistical modeling, data analytics, NLP, and business intelligence.",
   },
 
   {
     year: "2019 — 2022",
-    title: "M.Sc. (Hons.) Mathematics",
-    organization: "University of Masechussets",
+    title: "B.Sc. (Hons.) Mathematics",
+    organization: "University of Calcutta",
     description:
-      "Strong academic foundation in mathematics, statistics, analytical reasoning, and optimization.",
+      "Built a strong foundation in mathematics, probability, statistics, optimization, and analytical problem solving.",
   },
 
   {
-    year: "2021",
-    title: "ML and Research project",
-    organization: "Independent Research",
+    year: "2022 — Present",
+    title: "Private Mathematics Tutor",
+    organization: "Self-Employed",
     description:
-      "Built projects in NLP, computer vision, OCR pipelines, and transformer-based systems.",
+      "Mentored students in algebra, calculus, probability, and statistics while developing communication, reporting, and analytical skills.",
   },
 ];

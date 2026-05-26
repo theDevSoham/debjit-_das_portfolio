@@ -204,7 +204,7 @@ export const projects = [
 
     year: "2025",
 
-    image: "/projects/flask_ui.jpg",
+    image: "/projects/flask_ui.png",
 
     hero:
       "Designed a multimodal AI system that combines image analysis and OCR-based text verification to identify counterfeit pharmaceutical products.",
@@ -253,7 +253,7 @@ export const projects = [
 
     year: "2026",
 
-    image: "/projects/project-6.png",
+    image: "/projects/mapinn.png",
 
     hero:
       "Developed an adaptive Physics-Informed Neural Network framework for solving complex nonlinear systems with improved accuracy and stability.",
@@ -293,53 +293,7 @@ export const projects = [
     ],
   },
 
-  {
-    slug: "food-image-classification",
 
-    title: "Food Image Classification",
-
-    category: "Deep Learning / Vision",
-
-    year: "2024",
-
-    image: "/projects/project-3.png",
-
-    hero: "Transfer-learning based image classification system using EfficientNet architectures and augmentation workflows.",
-
-    overview:
-      "This project explores transfer learning for food image classification using EfficientNetB0 and augmentation pipelines. The system benchmarks deep learning performance against traditional ML approaches.",
-
-    methodology: [
-      "Applied transfer learning using EfficientNetB0.",
-      "Built augmentation pipelines for generalization.",
-      "Benchmarked CNN performance against classical ML models.",
-      "Evaluated classification consistency across datasets.",
-      "Optimized training workflows for accuracy improvements.",
-    ],
-
-    results: [
-      "Achieved over 90% classification accuracy.",
-      "Validated effectiveness of deep feature extraction.",
-      "Improved generalization using augmentation workflows.",
-    ],
-
-    metrics: [
-      {
-        label: "Accuracy",
-        value: "90%+",
-      },
-
-      {
-        label: "Architecture",
-        value: "EfficientNetB0",
-      },
-
-      {
-        label: "Task",
-        value: "Classification",
-      },
-    ],
-  },
 ];
 
 export interface ProjectMetric {

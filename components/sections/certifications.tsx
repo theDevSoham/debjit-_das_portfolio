@@ -11,8 +11,8 @@ export default function Certifications() {
         <Reveal>
           <SectionHeading
             eyebrow="Certifications"
-            title="Continuous learning through modern AI and data science domains."
-            description="Focused learning across generative AI, visualization systems, and practical machine learning workflows."
+            title="Continuous learning across data analytics, visualization, and AI tools."
+            description="Industry-focused certifications covering generative AI, interactive data visualization, information technology, and practical AI applications."
           />
         </Reveal>
 
