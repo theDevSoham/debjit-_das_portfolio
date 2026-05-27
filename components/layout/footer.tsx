@@ -7,9 +7,23 @@ export default function Footer() {
       <Container>
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="text-sm text-slate-500">
-              © 2026 Debjit Das. All rights reserved.
-            </p>
+            <div className="flex flex-col gap-1">
+              <p className="text-sm text-slate-500">
+                © 2026 Debjit Das. All rights reserved.
+              </p>
+
+              <p className="text-xs text-slate-400">
+                Designed & Developed by{" "}
+                <a
+                  href="https://soham-das.is-a.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors duration-300 hover:text-slate-700"
+                >
+                  Soham Das
+                </a>
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-6">
