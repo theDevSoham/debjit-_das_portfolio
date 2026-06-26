@@ -1,4 +1,54 @@
 export const projects = [
+
+{
+    slug: "researchmind-ai",
+
+    title: "ResearchMind AI — Research Paper Intelligence Platform",
+
+    category: "Generative AI / RAG Systems",
+
+    year: "2026",
+
+    image: "/projects/researchmind_hero.png",
+
+    hero:
+      "Built and deployed a full-stack Retrieval-Augmented Generation platform that answers questions across research papers with exact page-level citations.",
+
+    overview:
+      "Designed and deployed a production RAG system combining FAISS dense retrieval, BM25 sparse retrieval, and Reciprocal Rank Fusion to ground every AI-generated answer in an exact source citation and page number. Built a FastAPI backend exposing five LLM-powered capabilities — question answering, summarization, methodology/findings extraction, multi-paper comparison, and research gap analysis — powered by Google Gemini. Engineered per-user data isolation and resolved real production constraints including multi-replica state consistency and memory-bounded model serving, then containerized and deployed the full stack across Hugging Face Spaces and Vercel.",
+
+    methodology: [
+      "Built a hybrid retrieval pipeline combining FAISS dense search, BM25 sparse search, and Reciprocal Rank Fusion.",
+      "Designed a FastAPI backend exposing Q&A, summarization, extraction, comparison, and gap-analysis endpoints.",
+      "Integrated Google Gemini for grounded answer generation with page-level source citations.",
+      "Engineered per-user data isolation and resolved multi-replica state and memory constraints for production deployment.",
+      "Containerized with Docker and deployed full-stack across Hugging Face Spaces and Vercel.",
+    ],
+
+    results: [
+      "Achieved page-level citation grounding on 100% of generated answers.",
+      "Evaluated system quality with a custom LLM-as-judge framework, scoring 1.00 answer relevancy.",
+      "Delivered a live, publicly accessible RAG platform with isolated per-user research libraries.",
+    ],
+
+    metrics: [
+      {
+        label: "Relevancy Score",
+        value: "1.00",
+      },
+
+      {
+        label: "Citations/Answer",
+        value: "5.0",
+      },
+
+      {
+        label: "Features",
+        value: "5",
+      },
+    ],
+  },
+
   {
     slug: "superstore-sales-dashboard",
 
@@ -292,6 +342,8 @@ export const projects = [
       },
     ],
   },
+
+  
 
 
 ];
